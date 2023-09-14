@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	folderPath := "/Users/neotokyo/Desktop/Photos Bains SériePRO 2"
+	// CHANGE FILE PATH ACCORDINGLY
+	folderPath := "enter file path here"
 
 	files, err := ioutil.ReadDir(folderPath)
 	if err != nil {
